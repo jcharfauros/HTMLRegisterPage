@@ -1,5 +1,5 @@
 body {
-    background-color: #33CEFF;
+    background-color: #369EFD;
 }
 
 .navHeader {
@@ -8,34 +8,50 @@ body {
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;    
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
       
-}
+} 
 
 .button {
-    padding-right: 5px;
-    background-color: lightblue;
+    font: 18px Arial;
+    text-decoration: none;
+    background-color: #366CFD;
     color: white;
-}
- 
-#form {
-    align: center;
-    text-align: center;
-    background-color: white;
-
-}
+    padding: 10px 10px 10px 10px;
+}   
 
 .signup {
     background-color: white;
-    margin-right: 550px;
-    margin-left: 625px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-top: 4px double #1C6EA4;
+    border-left: 4px double #1C6EA4;
+    border-right: 4px double #1C6EA4;
+    border-bottom:  4px double #1C6EA4;
+    width: 15%;    
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto; 
+    padding: 0px 0px 50px 50px; 
 }
 
-.icons {
-
+#input {
+    width: 75%;
+    font-size: 15px;
+    padding: 12px 10px 12px 10px;
 }
 
-#amazon {
-    border-radius: ;
+#buttonTwo {
+    background-color: #366CFD;
+    border-color: #366CFD;
+    width: auto;
+    font-size: 18px;
+    color: white;
+    padding: 8px 90px 8px 90px;
 }
